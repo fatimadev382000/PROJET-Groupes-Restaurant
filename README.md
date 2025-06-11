@@ -11,8 +11,8 @@ DESCRIPTION: Ce project de restauration est realiser tout d'abord en figma avec 
 
 ## PAGE DU PERSONNEL: 
   DESCRIPTION: Dans cette page vous pouvez trouvez les information concernant le personnel et les plas qui sont proposee par notre chef de cuisine 
-  <img src="Capture\Capture WEB Perso.PNG" alt=" PERSONEL1">
-   <img src="Capture\Capture suite Web p.PNG" alt=" PERSONEL2">
+  <img src="Capture\Capture PERSO.PNG" alt=" PERSONEL1">
+   <img src="Capture\Capture PERSO2.PNG" alt=" PERSONEL2">
 
 ## PAGE APROPOS:
    DESCRIPTION: Dans cette dereniere page il y'a nos horaires de travail, Notre historique, notre valeur et en fin notre localisation.
