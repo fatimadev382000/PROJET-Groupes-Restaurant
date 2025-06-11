@@ -1,0 +1,135 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+}
+/* entete de page*/
+header, footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: #e09f70;
+  color: white;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+header {
+  top: 1px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: inherit;
+  gap: 10px;
+}
+.title{
+  flex-wrap: wrap;
+  font-size: 1.1rem;
+}
+header .logo {
+  font-weight: bold;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-right: 50px;
+}
+.title div h1{
+  font-family: 'brush Script MT',cursive;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    
+}
+header .logo img {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  border-radius: 8px;
+  ;
+
+}
+
+header nav {
+  flex-grow: 1;
+  text-align: center;
+  padding-top: 10px;
+}
+
+header nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px;
+  background: #6d4020;
+  border-radius: 8px;
+  padding: 10px 20px;  
+}
+ 
+main {
+  padding: 99px 20px 60px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/*bouton lien de menu de la semaine complet*/
+.btn, .order-btn {
+  display: inline-block;
+  margin: 10px auto;
+  background: #d2691e;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;}
+
+/* le pied de page...*/
+footer {
+  bottom: 0;
+  text-align: center;
+  font-size: 0.9em;
+}
+footer p {
+  margin: 5px 0;
+}
+footer .socials img {
+  width: 24px;
+  margin: 0 5px;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  header nav {
+    margin-top: 10px;
+  }
+}
